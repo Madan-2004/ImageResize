@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#f5f6fa;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box{
+    width: 70%;
+    margin: auto;
+    line-height: 0;
+    background: url(background.png);
+    position: relative;
+}
+
+.wrap{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+span{
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    cursor: ew-resize;
+    top: 0;
+    left: 0;
+}
+
+.arrow{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
